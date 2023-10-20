@@ -1,0 +1,22 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: yellow;
+    justify-content: flex-start;
+    list-style: none;
+    align-items: center;
+}
+
+
+.purple{
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+}

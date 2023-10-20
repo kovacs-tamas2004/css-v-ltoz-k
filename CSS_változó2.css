@@ -1,0 +1,153 @@
+:root{
+    --all-padding: 0.5px;
+    --all-margin: 0.5px;
+    --container-width: 100%;
+    --container-height: 400px;
+    --container-display: flex;
+    --container-flex-direction: row;
+    --container-flex-wrap: wrap;
+    --purple-b_color: purple;
+    --purple-width: 350px;
+    --purple-height: 150px;
+    --purple-margin-right: 10px;
+    --lightblue-b_color: lightblue;
+    --lightblue-width: 350px;
+    --lightblue-height: 150px;
+    --lightblue-margin-right: 10px;
+    --blue-b_color: aqua;
+    --blue-width: 350px;
+    --blue-height: 150px;
+    --blue-margin-right: 10px;
+    --darkgreen-b_color: rgb(0, 128, 90);
+    --darkgreen-width: 350px;
+    --darkgreen-height: 150px;
+    --darkgreen-margin-right: 150px;
+    --lightred-b_color: rgb(204, 110, 199);
+    --lightred-width: 350px;
+    --lightred-height: 150px;
+    --lightred-margin-right: 10px;
+    --lightred-margin-top: -80px;
+    --lightpink-b_color: pink;
+    --lightpink-width: 350px;
+    --lightpink-height: 150px;
+    --lightpink-margin-right: 10px;
+    --lightpink-margin-top: -80px;
+    --darkpink-b_color: rgb(241, 0, 209);
+    --darkpink-width: 350px;
+    --darkpink-height: 150px;
+    --darkpink-margin-right: 10px;
+    --darkpink-margin-top: -80px;
+    --orange-b_color: rgb(248, 132, 78);
+    --orange-width: 350px;
+    --orange-height: 150px;
+    --orange-margin-right: 10px;
+    --orange-margin-top: -80px;
+    --foot-width: 100%;
+    --foot-height: 300px;
+    --foot-display: flex;
+    --foot-flex-direction: row-reverse;
+    --foot-margin-top: 0;
+    --button-width: 90px;
+    --button-height: 45px;
+    --button-margin-right: 1750px;
+    --button-margin-top: -80px;
+    --input-width: 90px;
+    --input-height: 45px;
+    --input-margin-right: 5px;
+    --input-margin-top: -80px;
+}
+
+*{
+    padding: var(--all-padding);
+    margin: var(--all-margin);
+}
+
+.container{
+    width: var(--container-width);
+    height: var(--container-height);
+    display: var(--container-display);
+    flex-direction: var(--container-flex-direction);
+    flex-wrap: var(--container-flex-wrap);
+}
+
+.purple{
+    background-color: var(--purple-b_color);
+    width: var(--purple-width);
+    height: var(--purple-height);
+    margin-right: var(--purple-margin-right);
+}
+
+.lightblue{
+    background-color: var(--lightblue-b_color);
+    width: var(--lightblue-width);
+    height: var(--lightblue-height);
+    margin-right: var(--lightblue-margin-right);
+}
+
+.blue{
+    background-color: var(--blue-b_color);
+    width: var(--blue-width);
+    height: var(--blue-height);
+    margin-right: var(--blue-margin-right);
+}
+
+.darkgreen{
+    background-color: var(--darkgreen-b_color);
+    width: var(--darkgreen-width);
+    height: var(--darkgreen-height);
+    margin-right: var(--darkgreen-margin-right);
+}
+
+.lightred{
+    background-color: var(--lightred-b_color);
+    width: var(--lightred-width);
+    height: var(--lightred-height);
+    margin-right: var(--lightred-margin-right);
+    margin-top: var(--lightred-margin-top);
+}
+
+.lightpink{
+    background-color: var(--lightpink-b_color);
+    width: var(--lightpink-width);
+    height: var(--lightpink-height);
+    margin-right: var(--lightpink-margin-right);
+    margin-top: var(--lightpink-margin-top);
+}
+
+.darkpink{
+    background-color: var(--darkpink-b_color);
+    width: var(--darkpink-width);
+    height: var(--darkpink-height);
+    margin-right: var(--darkpink-margin-right);
+    margin-top: var(--darkpink-margin-top);
+}
+
+.orange{
+    background-color: var(--orange-b_color);
+    width: var(--orange-width);
+    height: var(--orange-height);
+    margin-right: var(--orange-margin-right);
+    margin-top: var(--orange-margin-top);
+}
+
+.foot{
+    width: var(--foot-width);
+    height: var(--foot-height);
+    display: var(--foot-display);
+    flex-direction: var(--foot-flex-direction);
+    margin-top: var(--foot-margin-top);
+}
+
+button{
+    width: var(--button-width);
+    height: var(--button-height);
+    margin-right: var(--button-margin-right);
+    margin-top: var(--button-margin-top);
+}
+
+input{
+    width: var(--input-width);
+    height: var(--input-height);
+    margin-right: var(--input-margin-right);
+    margin-top: var(--input-margin-top);
+}
